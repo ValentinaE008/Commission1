@@ -9,7 +9,7 @@ class MainKtTest {
         val type = TYPE_1;
         val amountOfPreviousPurchases = 400_00
         val amountTransfer = 100_00
-        val expectedResult = 0
+        val expectedResult = 100_00
 
         val result = calcCommission(type, amountOfPreviousPurchases, amountTransfer)
 
